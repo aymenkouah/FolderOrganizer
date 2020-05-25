@@ -1,3 +1,12 @@
+#Made by: Kouah Mohammed Aymen
+#Computer science student at "National Computer science Engineering School, Algiers (ESI)"
+#E-mail: jm_kouah@esi.dz
+#Github: https://github.com/aymenkouah
+
+#Requires installaling "filetype"
+#https://pypi.org/project/filetype/
+
+
 # Modules
 import os
 import filetype
