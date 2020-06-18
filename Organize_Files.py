@@ -99,7 +99,14 @@ def organize(fol):
     os.rename(os.path.basename(to_organize), new_fol)
 
 
+    
+def backup(path):
+    back = r"%s\\..\\Backup_temp" % path
+    shutil.copytree(path, back)
+ 
+    
 # Main Code
 if __name__ == '__main__':
+    backup(target.path)
     organize(target)
     input("Done")
